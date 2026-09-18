@@ -107,3 +107,4 @@ Read [`SECURITY.md`](./SECURITY.md) before reporting a vulnerability. Developmen
 ## License
 
 Inkstone is distributed under the [GNU Lesser General Public License v3.0 only](./LICENSE), using the SPDX identifier `LGPL-3.0-only`.
+##
