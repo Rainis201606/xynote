@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./public/inkstone-logo.svg" width="112" height="112" alt="Inkstone project logo" />
+  <img src="./public/XYNote-logo.svg" width="112" height="112" alt="XYNote project logo" />
 </p>
 
-<h1 align="center">Inkstone</h1>
+<h1 align="center">XYNote</h1>
 
 <p align="center">
   A self-hosted Markdown notebook for writing, organizing, syncing, and backing up personal knowledge.
@@ -12,12 +12,12 @@
   <a href="./README_ZH.md">中文</a> ·
   <a href="./CONTRIBUTING.md">Contributing</a> ·
   <a href="./LICENSE">LGPL-3.0-only</a> ·
-  <a href="https://inkstone-demo.pages.dev/">Demo</a>
+  <a href="https://XYNote-demo.pages.dev/">Demo</a>
 </p>
 
 ## About
 
-Inkstone is a browser-based notebook that runs on Cloudflare Workers. Notes always remain plain Markdown text; on top of that foundation, the application provides focused writing, live preview, lexical and optional semantic search, bidirectional links, offline editing, multi-device synchronization, private AI access, public sharing, and off-site backups.
+XYNote is a browser-based notebook that runs on Cloudflare Workers. Notes always remain plain Markdown text; on top of that foundation, the application provides focused writing, live preview, lexical and optional semantic search, bidirectional links, offline editing, multi-device synchronization, private AI access, public sharing, and off-site backups.
 
 It is a complete self-hosted application. The deployer retains control of the database, attachments, and runtime environment.
 
@@ -52,14 +52,14 @@ Every new account automatically receives two standard starter notes, one in Chin
 
 ## Deployment
 
-1. Fork the Inkstone repository to your GitHub account.
+1. Fork the XYNote repository to your GitHub account.
 2. Open [Cloudflare Workers & Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages/create).
 3. Select **Continue with GitHub**, then choose your forked repository.
 4. For R2 mode, set the build command to `npm run build` and the deploy command to `npm run deploy`.
    - To use KV mode, change the deploy command to `npm run deploy:kv`.
 5. After deployment completes, open the generated Workers URL.
 
-Existing databases are upgraded automatically through versioned, idempotent migrations. Keep a current backup before updating any self-hosted deployment. When a newer stable Inkstone release is available, the owner receives a focused reminder without interrupting regular members.
+Existing databases are upgraded automatically through versioned, idempotent migrations. Keep a current backup before updating any self-hosted deployment. When a newer stable XYNote release is available, the owner receives a focused reminder without interrupting regular members.
 
 ## Exports and backups
 
@@ -106,5 +106,5 @@ Read [`SECURITY.md`](./SECURITY.md) before reporting a vulnerability. Developmen
 
 ## License
 
-Inkstone is distributed under the [GNU Lesser General Public License v3.0 only](./LICENSE), using the SPDX identifier `LGPL-3.0-only`.
+XYNote is distributed under the [GNU Lesser General Public License v3.0 only](./LICENSE), using the SPDX identifier `LGPL-3.0-only`.
 ##
