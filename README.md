@@ -2,7 +2,7 @@
   <img src="./public/XYNote-logo.svg" width="112" height="112" alt="XYNote project logo" />
 </p>
 
-<h1 align="center">XYNote</h1>
+<h1 align="center">XY Note</h1>
 
 <p align="center">
   A self-hosted Markdown notebook for writing, organizing, syncing, and backing up personal knowledge.
@@ -17,7 +17,7 @@
 
 ## About
 
-XYNote is a browser-based notebook that runs on Cloudflare Workers. Notes always remain plain Markdown text; on top of that foundation, the application provides focused writing, live preview, lexical and optional semantic search, bidirectional links, offline editing, multi-device synchronization, private AI access, public sharing, and off-site backups.
+XY Note is a browser-based notebook that runs on Cloudflare Workers. Notes always remain plain Markdown text; on top of that foundation, the application provides focused writing, live preview, lexical and optional semantic search, bidirectional links, offline editing, multi-device synchronization, private AI access, public sharing, and off-site backups.
 
 It is a complete self-hosted application. The deployer retains control of the database, attachments, and runtime environment.
 
